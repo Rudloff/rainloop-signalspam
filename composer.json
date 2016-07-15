@@ -1,4 +1,7 @@
 {
+    "name": "rudloff/rainloop-signalspam",
+    "description": "RainLoop plugin that forwards messages flagged as spam to the signal-spam.fr API",
+    "license": "GPL-3.0",
     "require": {
         "guzzlehttp/guzzle": "~6.2.0"
     }
