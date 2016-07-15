@@ -24,7 +24,7 @@ class SignalSpamPlugin extends \RainLoop\Plugins\AbstractPlugin
 
     public function sendToSignalSpam($sMethodName, $aCurrentActionParams)
     {
-        //We don't use the Guzzle lib packaged in RainLoop but it throwes this error:
+        //We don't use the Guzzle lib packaged in RainLoop because it throwes this error:
         //Call to undefined function GuzzleHttp\\deprecation_proxy()
         require_once __DIR__.'/vendor/autoload.php';
 
